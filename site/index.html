@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @font-face {
+            font-family: roboto-mono;
+            src: url(fonts/Roboto_Mono/RobotoMono-Regular.ttf)
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+
+        #main {
+            width: 100%;
+            height: calc(100vh - 5px);
+            padding: 0;
+            margin: 0;
+            padding-bottom: 0;
+            background-position: center;
+            background-size: cover;
+            background-color: black;
+            text-align: center;
+        }
+
+        #text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: transparent;
+        }
+
+        h1 {
+            font-family: roboto-mono;
+            color: white;
+            font-size: 50px;
+        }
+
+        h2 {
+            font-family: roboto-mono;
+            color: white;
+            font-size: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="main">
+        <div id="text">
+            <h1>Aidan Butler</h1>
+            <h2></h2>
+        </div>
+
+    </div>
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
